@@ -1,11 +1,6 @@
-function adivinarNumero() {
-    let numero = document.getElementById("numerofavorito").value;
+const numeroinput = document.getElementById("numero");
+const dificultadSelect = document.getElementById("dificultar");
+const boton = document.getElementById("verificar");
 
-    if (numero==7){
-        document.getElementById("resultado").textContent =
-                 "¡Acertaste el numero !";
-    } else{
-        document.getElementById("resultado").textContent =
-        "no acertaste. intenta otra vez,";
-    }
-}
+const numeroFavorito = 15;
+boton.addEventListener("click" )()
